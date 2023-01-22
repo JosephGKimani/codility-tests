@@ -1,0 +1,13 @@
+if(X<Y){
+    
+    var nX=X+D;
+    var count=1;
+    while(nX<=Y){
+        count++;
+        nX+=D;
+        
+    }
+
+}
+return count;
+}
