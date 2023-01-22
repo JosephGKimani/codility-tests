@@ -1,0 +1,18 @@
+
+function solution(A) {
+//check whether N conditions are satisfied
+    while(N=>1&&N<=1000000){
+    //sorting the array to make adjacent numbers equal
+         A=A.sort();
+         //looping through the array
+        for(let i=0;i<A.length;i++){
+           k=A[i++];
+           //checking whether the adjacent numbers are equal
+            if(A[i]!==k){
+            //if not equal the we find the odd number
+                return k;
+            }
+        }
+
+    }
+}
